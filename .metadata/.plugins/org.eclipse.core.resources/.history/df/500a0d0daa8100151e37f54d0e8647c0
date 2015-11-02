@@ -1,0 +1,17 @@
+package euranova;
+
+public class euranova {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("EuraNova Project");
+		double a = poissonRandomInterarrivalDelay(0.5);
+	}
+	
+	
+	// Note that L = 1/lambda
+	public static double poissonRandomInterarrivalDelay(double L) {
+	    return (Math.log(1.0-Math.random())/-L);
+	}
+
+}
