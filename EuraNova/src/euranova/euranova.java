@@ -1,5 +1,7 @@
 package euranova;
 
+import org.apache.flink.api.common.functions.FlatMapFunction;
+
 public class euranova {
 	
 	// Note that L = 1/lambda
@@ -15,8 +17,9 @@ public class euranova {
 		euranova romain = new euranova();
 		double a = romain.poissonRandomInterarrivalDelay(0.5);
 		System.out.print(a);
-		
 	}
+	
+	
 }
 
 
